@@ -113,13 +113,13 @@ I spent approximately **10 hours** on this task.
 
 ```bash
 
-git  clone  <your-repo-url>
+git clone https://github.com/vishalpokuri/Bella-Oter
 
-cd  <project-folder>
+cd Bella-Oter
 
-npm  install
+npm install
 
-npm  run  dev
+npm run dev
 
 
 
