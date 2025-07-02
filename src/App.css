@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.darken {
+  filter: brightness(75%);
+}
