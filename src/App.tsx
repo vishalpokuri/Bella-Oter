@@ -1,12 +1,12 @@
 import "./App.css";
 import HeroBGWrapper from "./components/HeroBGWrapper";
-import Quiz from "./components/Quiz";
+import QuizContainer from "./components/QuizContainer";
 
 function App() {
   return (
     <>
       <HeroBGWrapper>
-        <Quiz />
+        <QuizContainer />
       </HeroBGWrapper>
     </>
   );
