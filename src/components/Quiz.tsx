@@ -98,13 +98,13 @@ function Quiz() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -10 }}
-          transition={{ duration: 0.2, ease: "easeOut" }}
+          transition={{ duration: 0.4, ease: "easeOut" }}
           className="flex flex-col items-center justify-center min-h-screen px-6 py-8 max-w-lg mx-auto"
         >
           <motion.div
             initial={{ scale: 0.95 }}
             animate={{ scale: 1 }}
-            transition={{ duration: 0.3, delay: 0.1 }}
+            transition={{ duration: 0.4, delay: 0.1 }}
             className="w-full bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-stone-200/50"
           >
             {/* Heading part */}
@@ -187,7 +187,7 @@ function Quiz() {
           <motion.div
             initial={{ scale: 0.95 }}
             animate={{ scale: 1 }}
-            transition={{ duration: 0.3, delay: 0.1 }}
+            transition={{ duration: 0.4, delay: 0.1 }}
             className="w-full bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-stone-200/50"
           >
             <div className="text-center mb-8">
@@ -213,7 +213,7 @@ function Quiz() {
                   };
 
                   const descriptions = {
-                    grounding: "Stability and connection \n to your center",
+                    grounding: "Stability and deep connection",
                     softness: "Gentle comfort and nurturing touch",
                     energy: "Vitality and dynamic movement",
                     freedom: "Liberation and\neffortless flow",
