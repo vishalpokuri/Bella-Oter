@@ -19,7 +19,7 @@ function ProductSection({
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -10 }}
       transition={{ duration: 0.2, ease: "easeOut" }}
-      className="flex flex-col items-center justify-center min-h-screen px-6 py-8 max-w-lg mx-auto"
+      className="flex flex-col items-center justify-center h-screen px-6 max-w-lg mx-auto"
     >
       <motion.div
         initial={{ scale: 0.95 }}

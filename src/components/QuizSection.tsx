@@ -64,11 +64,11 @@ function QuizSection({
                   {/* Hover overlay animation */}
                   <div className="absolute inset-0 group-hover:bg-black/10 transition-colors duration-300" />
 
-                  <div className="relative h-full flex flex-col justify-end p-3">
-                    <h3 className="text-white font-medium text-lg capitalize drop-shadow-lg">
+                  <div className="relative h-full flex flex-col justify-end p-3 ">
+                    <h3 className="text-white font-medium text-lg capitalize drop-shadow-lg ">
                       {option}
                     </h3>
-                    <p className="text-[#f5f4f0]/90 text-xs mt-1 drop-shadow-md leading-relaxed mx-auto whitespace-pre-wrap">
+                    <p className="hidden lg:block text-[#f5f4f0]/90 text-xs mt-1 drop-shadow-md leading-relaxed mx-auto whitespace-pre-wrap">
                       {descriptions[option]}
                     </p>
                   </div>
